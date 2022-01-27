@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="logo"><a href="#home">To-Do-<span>List.</span></a></div>
+
+                <ul class="menu" id="menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#resume" class="menu-btn">resume</a></li>
+                    <li><a href="#portfolio" class="menu-btn">portfolio</a></li>
+                    <li><a href="#services" class="menu-btn">services</a></li>
+                    <li><a href="#contacts" class="menu-btn">Contact</a></li>
+                </ul>
+
+                <div class="main-btn">
+                    <div class="nav">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="label">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="dark-btn">
+                    <div class="nav">
+                        <input type="checkbox" class="check" id="check">
+                        <label for="check" class="labe">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="bal"></div>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="box">
+            <h2>TO-DO List</h2>
+            <div>
+                <input type="text" id="add" placeholder="add items">
+                <i class="fas fa-plus"></i>
+            </div>
+            <select class="filter">
+                <option value="all">ALL</option>
+                <option value="todo">Todo</option>
+                <option value="completed">Completed</option>
+            </select>
+            <div id="checklist">
+                <input class="re" id="01" type="checkbox" name="r" value="1" checked>
+                <span>
+                    <label for="01">Bread</label>
+                    <i class="far fa-trash-alt"></i>
+                </span>
+                <input id="02" type="checkbox" name="r" value="2">
+                <span>
+                    <label for="02">Bread</label>
+                    <i class="far fa-trash-alt"></i>
+                </span>
+                <input id="03" type="checkbox" name="r" value="3">
+                <span>
+                    <label for="03">Bread</label>
+                    <i class="far fa-trash-alt"></i>
+                </span>
+            </div>
+        </div>
+          
+    </section>
+
+
+
+    <!-- footer section start -->
+    <footer>
+        <div class="top">
+            <div class="logo-details">
+                <div class="logo_name">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact">
+                        <p>Where to Find me</p>
+                    </div>
+                    <div class="details">Visakhapatnam, Andhra Pradesh,<br>India, 531055.</div>
+                </div>
+                <div class="logo_name">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact">
+                        <p>email me at</p>
+                    </div>
+                    <div class="details" style="text-transform: none;">B519018@iiit-bh.ac.in<br>prashanthdmp@gmail.com
+                    </div>
+                </div>
+                <div class="logo_name">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact">
+                        <p>contact me at</p>
+                    </div>
+                    <div class="details">+91 9182380030</div>
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href="https://www.linkedin.com/in/prashanth-dasari-151685196"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/prassu10"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/D.PRASSU"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/prassu_dasari"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/prassu_dasari"><i class="fab fa-twitter"></i></a>
+                <a href="https://prassu10.github.io/Portfolio/"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <span class="copyright_text">Copyright © 2022 &nbsp;&nbsp;|&nbsp;&nbsp; Design by <a
+                    href="#">Prashanth</a>|</span>
+            <span class="policy_terms"><a href="#info">Scroll to top <i class="fas fa-arrow-up"></i></a></span>
+        </div>
+    </footer>
+
+    <!-- js scripts start -->
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+
+</body>
+
+</html>
